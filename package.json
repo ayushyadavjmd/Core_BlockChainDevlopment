@@ -1,0 +1,43 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "It's a core development of blockhain from scratch, for better understanding of how blockchain works and actually implementing.",
+  "license": "ISC",
+  "creation_date":" 2024-04-06",
+  "keywords": [
+    "blockchain",
+    "cryptocurrency",
+    "bitcoin",
+    "ethereum",
+    "nodejs",
+    "mining",
+    "peer-to-peer",
+    "distributed",
+    "ledger",
+    "cryptography",
+    "smart contracts",
+    "decentralized",
+    "consensus",
+    "implementation of blockchain"
+  ],
+  "author": "Prince Yadav",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dev-peer": "cross-env GENERATE_PEER_PORT='true' nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "hex-to-binary": "^1.0.1",
+    "nodemon": "^3.1.9",
+    "redis": "^2.8.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
